@@ -13,10 +13,7 @@
 
                 <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
-                        <li><a href="../index.php" class="active">Home 1 - index.html</a></li>
-                        <li><a href="../index-2.php">Home 2 - index-2.html</a></li>
-                        <li><a href="../index-3.php">Home 3 - index-3.html</a></li>
-                        <li><a href="../index-4.php">Home 4 - index-4.html</a></li>
+                        <li><a href="../index.php" class="active">Home</a></li>
                     </ul>
                 </li>
 
