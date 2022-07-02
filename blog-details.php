@@ -51,7 +51,7 @@
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <a href="index.php" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>HeroBiz<span>.</span></h1>
@@ -62,18 +62,18 @@
 
           <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="index.html">Home 1 - index.html</a></li>
-              <li><a href="index-2.html">Home 2 - index-2.html</a></li>
-              <li><a href="index-3.html">Home 3 - index-3.html</a></li>
-              <li><a href="index-4.html">Home 4 - index-4.html</a></li>
+              <li><a href="index.php">Home 1 - index.html</a></li>
+              <li><a href="index-2.php">Home 2 - index-2.html</a></li>
+              <li><a href="index-3.php">Home 3 - index-3.html</a></li>
+              <li><a href="index-4.php">Home 4 - index-4.html</a></li>
             </ul>
           </li>
 
-          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="index.php#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+          <li><a href="blog.php" class="active">Blog</a></li>
           <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li>
@@ -115,12 +115,12 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
-      <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted scrollto" href="index.php#about">Get Started</a>
 
     </div>
   </header><!-- End Header -->
@@ -134,8 +134,8 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Blog Details</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="blog.php">Blog</a></li>
             <li>Blog Details</li>
           </ol>
         </div>
@@ -161,9 +161,9 @@
 
               <div class="meta-top">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.php">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.php"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.php">12 Comments</a></li>
                 </ul>
               </div><!-- End meta top -->
 
@@ -413,7 +413,7 @@
                   <div class="post-item">
                     <img src="assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                      <h4><a href="blog-post.php">Id quia et et ut maxime similique occaecati ut</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
@@ -421,7 +421,7 @@
                   <div class="post-item">
                     <img src="assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Laborum corporis quo dara net para</a></h4>
+                      <h4><a href="blog-post.php">Laborum corporis quo dara net para</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
@@ -429,7 +429,7 @@
                   <div class="post-item">
                     <img src="assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                      <h4><a href="blog-post.php">Et dolores corrupti quae illo quod dolor</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
