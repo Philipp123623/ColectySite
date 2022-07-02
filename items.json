@@ -1,0 +1,460 @@
+{
+    "bronze_helmet": {
+        "type": "helmet",
+        "buyable": true,
+        "stackable": false,
+        "craftable": false,
+        "sellable": false,
+        "stats": {
+            "coin_multiplier_added": 0.2,
+            "shard_multiplier_added": 0,
+            "shard_chance_added": 0.2
+        },
+        "coin_price": 700,
+        "total_level_to_equip": 0,
+        "emoji": "<:bronze_helmet:985595096160428073>",
+        "image_url": "https://i.postimg.cc/3NvQ6Hy7/bronze-helmet.png"
+    },
+    "iron_helmet": {
+        "type": "helmet",
+        "buyable": true,
+        "stackable": false,
+        "craftable": true,
+        "sellable": false,
+        "crafting_recipe": [{"item_name": "iron", "amount": 5}],
+        "stats": {
+            "coin_multiplier_added": 0.5,
+            "shard_multiplier_added": 0,
+            "shard_chance_added": 0.3
+        },
+        "coin_price": 4000,
+        "total_level_to_equip": 25,
+        "emoji": "<:iron_helmet:985595064954798184>",
+        "image_url": "https://i.postimg.cc/htJZ10dW/iron-helmet.png"
+    },
+    "gold_helmet": {
+        "type": "helmet",
+        "buyable": true,
+        "stackable": false,
+        "craftable": true,
+        "sellable": false,
+        "crafting_recipe": [{"item_name": "gold", "amount": 5}],
+        "stats": {
+            "coin_multiplier_added": 1,
+            "shard_multiplier_added": 0,
+            "shard_chance_added": 0.5
+        },
+        "coin_price": 90000,
+        "total_level_to_equip": 50,
+        "emoji": "<:gold_helmet:985595141475696710>",
+        "image_url": "https://i.postimg.cc/BbYNx8Zn/gold-helmet.png"
+    },
+    "crimson_helmet": {
+        "type": "helmet",
+        "buyable": true,
+        "stackable": false,
+        "craftable": true,
+        "sellable": false,
+        "crafting_recipe": [{"item_name": "crimson", "amount": 5}],
+        "stats": { 
+            "coin_multiplier_added": 1.2,
+            "shard_multiplier_added": 0,
+            "shard_chance_added": 0.7
+        },
+        "coin_price": 435000,
+        "total_level_to_equip": 75,
+        "emoji": "<:crimson_helmet:985595119296188488>",
+        "image_url": "https://i.postimg.cc/kXHfGthj/crimson-helmet.png"
+    },
+    "amethyst_helmet": {
+        "type": "helmet",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "crafting_recipe": [{"item_name": "amethyst", "amount": 5}],
+        "stats": {
+            "coin_multiplier_added": 1.5,
+            "shard_multiplier_added": 1,
+            "shard_chance_added": 1
+        },
+        "total_level_to_equip": 125,
+        "emoji": "<:amethyst_helmet:985595165081239582>",
+        "image_url": "https://i.postimg.cc/KYSfrhbB/amethyst-helmet.png"
+    },
+    "launch_helmet": {
+        "type": "helmet",
+        "buyable": false,
+        "stackable": false,
+        "craftable": false,
+        "sellable": false,
+        "stats": {
+            "coin_multiplier_added": 0.2,
+            "shard_multiplier_added": 0,
+            "shard_chance_added": 0.2
+        },
+        "total_level_to_equip": 10,
+        "emoji": "<:launch_helmet:985595038857842758>",
+        "image_url": "https://i.postimg.cc/8zdR2RrY/launch-helmet.png"
+    },
+    "feather": {
+        "type": "drop",
+        "buyable": false,
+        "stackable": false,
+        "craftable": false,
+        "sellable": true,
+        "selling_price": 50,
+        "emoji": "<:feather:988803894463332382> ",
+        "image_url": "https://i.postimg.cc/kXkcH2qC/feather.png"
+    },
+    "wool": {
+        "type": "drop",
+        "buyable": false,
+        "stackable": false,
+        "craftable": false,
+        "sellable": true,
+        "selling_price": 150,
+        "emoji": "<:wool:988804016479830137> ",
+        "image_url": "https://i.postimg.cc/4xV5RXx9/wool.png"
+    },
+    "leather": {
+        "type": "drop",
+        "buyable": false,
+        "stackable": false,
+        "craftable": false,
+        "sellable": true,
+        "selling_price": 500,
+        "emoji": "<:leather:988803985869795369>",
+        "image_url": "https://i.postimg.cc/15gBMGxM/leather.png"
+    },
+    "chicken": {
+        "type": "drop",
+        "buyable": false,
+        "stackable": false,
+        "craftable": false,
+        "sellable": true,
+        "selling_price": 1500,
+        "emoji": "<:chicken2:988804074101170177>",
+        "image_url": "https://i.postimg.cc/jq3vz81L/chicken.png"
+    },
+    "meat": {
+        "type": "drop",
+        "buyable": false,
+        "stackable": false,
+        "craftable": false,
+        "sellable": true,
+        "selling_price": 5000,
+        "emoji": "<:meat:988804050290102284>",
+        "image_url": "https://i.postimg.cc/1zSK9b8Y/meat.png"
+    },
+    "iron": {
+        "type": "ore",
+        "buyable": false,
+        "sellable": true,
+        "craftable": false,
+        "stackable": true,
+        "selling_price": 400,
+        "emoji": "<:iron:987041463667929118>",
+        "image_url": "https://i.postimg.cc/Kz9LsZW0/iron.png"
+    },
+    "gold": {
+        "type": "ore",
+        "buyable": false,
+        "craftable": false,
+        "stackable": true,
+        "sellable": true,
+        "selling_price": 2000,
+        "emoji": "<:gold:987041417895489636>",
+        "image_url": "https://i.postimg.cc/WzBdQtww/gold.png"
+    },
+    "crimson": {
+        "type": "ore",
+        "buyable": false,
+        "craftable": false,
+        "stackable": true,
+        "sellable": true,
+        "selling_price": 27000,
+        "emoji": "<:crimson:987041365999374356>",
+        "image_url": "https://i.postimg.cc/jSQDFxwy/crimson.png"
+    },
+    "amethyst": {
+        "type": "ore",
+        "buyable": false,
+        "craftable": false,
+        "stackable": true,
+        "sellable": true,
+        "selling_price": 170000,
+        "emoji": "<:amethyst:987041342263812126>",
+        "image_url": "https://i.postimg.cc/BvmXJmC6/amethyst.png"
+    },
+    "stone": {
+        "type": "ore",
+        "buyable": false,
+        "craftable": false,
+        "stackable": true,
+        "sellable": true,
+        "selling_price": 125,
+        "emoji": "<:stone:988498600755621898>",
+        "image_url": "https://i.postimg.cc/PrpgysLC/stone.png"
+    },
+    "log": {
+        "type": "log",
+        "buyable": false,
+        "craftable": false,
+        "stackable": true,
+        "sellable": true,
+        "selling_price": 100,
+        "emoji": "<:log:987043659318984774>",
+        "image_url": "https://i.postimg.cc/PxZhX8PC/wood.png"
+    },
+    "bronze_pickaxe": {
+        "type": "pickaxe",
+        "buyable": true,
+        "craftable": false,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "stone": {"chance": 100, "amount": [2, 3]},
+            "iron": {"chance": 20, "amount": [1, 2]},
+            "gold": {"chance": 0, "amount": 0},
+            "crimson": {"chance": 0, "amount": 0},
+            "amethyst": {"chance": 0,"amount": 0}
+        },
+        "coin_price": 700,
+        "mining_level_to_equip": 0,
+        "emoji": "<:bronze_pickaxe:988064295063543890>",
+        "image_url": "https://i.postimg.cc/fLtt7T2X/bronze-pickaxe.png"
+    },
+    "iron_pickaxe": {
+        "type": "pickaxe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "stone": {"chance": 100, "amount": [4, 5]},
+            "iron": {"chance": 30, "amount": [2, 4]},
+            "gold": {"chance": 4, "amount": [1, 2]},
+            "crimson": {"chance": 0, "amount": 0},
+            "amethyst": {"chance": 0,"amount": 0}
+        },
+        "crafting_recipe": [{"item_name": "iron", "amount": 2}, {"item_name": "log", "amount": 1}],
+        "mining_level_to_equip": 10,
+        "emoji": "<:iron_pickaxe:988063665527853128>",
+        "image_url": "https://i.postimg.cc/VvXJTZck/iron-pickaxe.png"
+    },
+    "gold_pickaxe": {
+        "type": "pickaxe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "stone": {"chance": 100, "amount": [10, 12]},
+            "iron": {"chance": 40, "amount": [6, 8]},
+            "gold": {"chance": 15, "amount": [2, 3]},
+            "crimson": {"chance": 4, "amount": [1, 2]},
+            "amethyst": {"chance": 0,"amount": 0}
+        },
+        "crafting_recipe": [{"item_name": "gold", "amount": 2}, {"item_name": "log", "amount": 1}],
+        "mining_level_to_equip": 20,
+        "emoji": "<:gold_pickaxe:988063398434598942>",
+        "image_url": "https://i.postimg.cc/9FV00phy/gold-pickaxe.png"
+    },
+    "crimson_pickaxe": {
+        "type": "pickaxe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "stone": {"chance": 100, "amount": [14, 16]},
+            "iron": {"chance": 80, "amount": [10, 12]},
+            "gold": {"chance": 35, "amount": [4, 5]},
+            "crimson": {"chance": 12, "amount": [2, 3]},
+            "amethyst": {"chance": 2,"amount": [1, 1]}
+        },
+        "crafting_recipe": [{"item_name": "crimson", "amount": 2}, {"item_name": "log", "amount": 1}],
+        "mining_level_to_equip": 30,
+        "emoji": "<:crimson_pickaxe:988063276720070666>",
+        "image_url": "https://i.postimg.cc/CLHZs2Nv/crimson-pickaxe.png"
+    },
+    "amethyst_pickaxe": {
+        "type": "pickaxe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "stone": {"chance": 100, "amount": [20, 22]},
+            "iron": {"chance": 100, "amount": [15, 16]},
+            "gold": {"chance": 55, "amount": [6, 7]},
+            "crimson": {"chance": 10, "amount": [4, 5]},
+            "amethyst": {"chance": 3,"amount": [1, 3]}
+        },
+        "crafting_recipe": [{"item_name": "amethyst", "amount": 2}, {"item_name": "log", "amount": 1}],
+        "mining_level_to_equip": 50,
+        "emoji": "<:amethyst_pickaxe:988063178749538304>",
+        "image_url": "https://i.postimg.cc/rmKWh9mD/amethyst-pickaxe.png"
+    },
+    "bronze_axe": {
+        "type": "axe",
+        "buyable": true,
+        "craftable": false,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "log": {"chance": 100, "amount": [1, 2]}
+        },
+        "coin_price": 700,
+        "chopping_level_to_equip": 0,
+        "emoji": "<:bronze_axe:988064258749251606>",
+        "image_url": "https://i.postimg.cc/zGrCJWdQ/bronze-axe.png"
+    },
+    "iron_axe": {
+        "type": "axe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "log": {"chance": 100, "amount": [4, 6]}
+        },
+        "crafting_recipe": [{"item_name": "iron", "amount": 3}, {"item_name": "log", "amount": 1}],
+        "chopping_level_to_equip": 10,
+        "emoji": "<:iron_axe:988063618996240444>",
+        "image_url": "https://i.postimg.cc/HWF0hFbd/iron-axe.png"
+    },
+    "gold_axe": {
+        "type": "axe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "log": {"chance": 100, "amount": [10, 14]}
+        },
+        "crafting_recipe": [{"item_name": "gold", "amount": 3}, {"item_name": "log", "amount": 1}],
+        "chopping_level_to_equip": 20,
+        "emoji": "<:gold_axe:988063365257654354>",
+        "image_url": "https://i.postimg.cc/C5n18PK4/gold-axe.png"
+    },
+    "crimson_axe": {
+        "type": "axe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "log": {"chance": 100, "amount": [20, 25]}
+        },
+        "crafting_recipe": [{"item_name": "crimson", "amount": 3}, {"item_name": "log", "amount": 1}],
+        "chopping_level_to_equip": 30,
+        "emoji": "<:crimson_axe:988063242393890827>",
+        "image_url": "https://i.postimg.cc/s2KvCG85/crimson-axe.png"
+    },
+    "amethyst_axe": {
+        "type": "axe",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "log": {"chance": 100, "amount": [50, 53]}
+        },
+        "crafting_recipe": [{"item_name": "amethyst", "amount": 3}, {"item_name": "log", "amount": 1}],
+        "chopping_level_to_equip": 50,
+        "emoji": "<:amethyst_axe:988063148508581888>",
+        "image_url": "https://i.postimg.cc/13G8MjrC/amethyst-axe.png"
+    },
+    "bronze_sword": {
+        "type": "sword",
+        "buyable": true,
+        "craftable": false,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "feather": {"chance": 100, "amount": [1, 2], "animal": ["chicken"]},
+            "leather": {"chance": 20, "amount": [1, 1], "animal": ["cow"]},
+            "wool": {"chance": 0, "amount": 0, "animal": ["sheep"]},
+            "chicken": {"chance": 0, "amount": 0, "animal": ["chicken"]},
+            "meat": {"chance": 0, "amount": 0, "animal": ["cow", "sheep"]}
+        },
+        "fighting_level_to_equip": 0,
+        "coin_price": 700,
+        "emoji": "<:bronze_sword:988070882851291216>",
+        "image_url": "https://i.postimg.cc/qMYsWSnp/bronze-sword.png"
+    },
+    "iron_sword": {
+        "type": "sword",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "feather": {"chance": 100, "amount": [2, 3], "animal": ["chicken"]},
+            "leather": {"chance": 40, "amount": [1, 2], "animal": ["cow"]},
+            "wool": {"chance": 20, "amount": [1, 1], "animal": ["sheep"]},
+            "chicken": {"chance": 0, "amount": 0, "animal": ["chicken"]},
+            "meat": {"chance": 0, "amount": 0, "animal": ["cow", "sheep"]}
+        },
+        "crafting_recipe": [{"item_name": "iron", "amount": 1}, {"item_name": "log", "amount": 1}],
+        "fighting_level_to_equip": 10,
+        "emoji": "<:iron_sword:988063710763438130>",
+        "image_url": "https://i.postimg.cc/L5Qt90bB/iron-sword.png"
+    },
+    "gold_sword": {
+        "type": "sword",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "feather": {"chance": 100, "amount": [4, 5], "animal": ["chicken"]},
+            "leather": {"chance": 60, "amount": [2, 3], "animal": ["cow"]},
+            "wool": {"chance": 40, "amount": [1, 2], "animal": ["sheep"]},
+            "chicken": {"chance": 10, "amount": [1, 1], "animal": ["chicken"]},
+            "meat": {"chance": 0, "amount": 0, "animal": ["cow", "sheep"]}
+        },
+        "crafting_recipe": [{"item_name": "gold", "amount": 1}, {"item_name": "log", "amount": 1}],
+        "fighting_level_to_equip": 20,
+        "emoji": "<:gold_sword:988063434132312064>",
+        "image_url": "https://i.postimg.cc/T2NgWFtn/gold-sword.png"
+    },
+    "crimson_sword": {
+        "type": "sword",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "feather": {"chance": 100, "amount": [6, 7], "animal": ["chicken"]},
+            "leather": {"chance": 80, "amount": [4, 5], "animal": ["cow"]},
+            "wool": {"chance": 60, "amount": [2, 3], "animal": ["sheep"]},
+            "chicken": {"chance": 20, "amount": [1, 1], "animal": ["chicken"]},
+            "meat": {"chance": 5, "amount": [1, 1], "animal": ["cow", "sheep"]}
+        },
+        "crafting_recipe": [{"item_name": "crimson", "amount": 1}, {"item_name": "log", "amount": 1}],
+        "fighting_level_to_equip": 30,
+        "emoji": "<:crimson_sword:988063305459437598>",
+        "image_url": "https://i.postimg.cc/x8XkRj6M/crimson-sword.png"
+    },
+    "amethyst_sword": {
+        "type": "sword",
+        "buyable": false,
+        "craftable": true,
+        "stackable": false,
+        "sellable": false,
+        "stats": {
+            "feather": {"chance": 100, "amount": [8, 9], "animal": ["chicken"]},
+            "leather": {"chance": 100, "amount": [6, 7], "animal": ["cow"]},
+            "wool": {"chance": 80, "amount": [4, 5], "animal": ["sheep"]},
+            "chicken": {"chance": 40, "amount": [2, 4], "animal": ["chicken"]},
+            "meat": {"chance": 10, "amount": [1, 3], "animal": ["cow", "sheep"]}
+        },
+        "crafting_recipe": [{"item_name": "amethyst", "amount": 1}, {"item_name": "log", "amount": 1}],
+        "fighting_level_to_equip": 50,
+        "emoji": "<:amethyst_sword:988063201939832894>",
+        "image_url": "https://i.postimg.cc/sDZQGXQR/amethyst-sword.png"
+    }
+}
